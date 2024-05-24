@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+}
+
+.Landing{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Minecraft';
+}
+
+.section{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: white;
+}
+
+
+/* header and navigation */
+.header{
+    background-image: url("img/dirtback.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #f0f0f0;
+    padding: 20px;
+}
+
+.logo{
+    font-size: 24px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.link{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.link a{
+    color: white;
+    text-decoration:none !important;
+    font-size: 20px;
+}
+
